@@ -8,7 +8,22 @@ Our journey doesn't stop there—sentiment analysis is diligently performed on t
 
 We're not shy about sharing the hurdles we overcame during the project, providing insights into the challenges encountered.
 
-The project gracefully unfolds through five distinct stages, each contributing to the overall success of our endeavor.
+The project gracefully unfolds through five stages, each contributing to the overall success of our endeavor.
+
+Stage 1: Retrieval and Storage on AWS S3
+Retrieve tweets from Twitter using the boto3, tweepy, and snscrape libraries, and efficiently store them on AWS S3.
+
+Stage 2: Preprocessing and NLP Analysis
+Engage in the preprocessing of tweet texts and conduct in-depth analysis using Natural Language Processing (NLP) techniques.
+
+Stage 3: Further Processing and ML Model Development
+Leverage Spark within the AWS Glue environment for advanced processing of tweets in preparation for machine learning model development. Additionally, reprocessing and crafting of the ML model for predicting tweet sentiments will be undertaken in a Jupyter Notebook environment.
+
+Stage 4: Logistic Regression Model Creation
+Embark on the creation of a Logistic Regression model specifically designed to predict sentiment values for tweets.
+
+Stage 5: Data Storage and Visualization with MongoDB
+Implement the final stage by seamlessly sending data to MongoDB for storage and facilitating visualization, adding a robust layer to the overall project.
 
 
 ## Case Study
